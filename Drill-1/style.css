@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#circled-line {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0 2rem;
+}
+
+.individual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+  justify-content: center;
+}
+
+.circle {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+.stepper {
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 1px 5px 0 grey;
+}
+hr {
+  border: none;
+  height: 4px;
+  width: 100%;
+  align-self: center;
+}
+.divider {
+  background-color: gray;
+}
+.divider-finished {
+  background-color: green;
+}
+
+#data {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.6rem 1.5rem 0 0;
+  .delivery {
+    padding-left: 2rem;
+  }
+}
+
+#content-data {
+  text-align: center;
+  padding: 1rem;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+}
+button {
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  background-color: RGBA(128, 128, 128, 0.5);
+  border-radius: 5px;
+}
+.initial {
+  background-color: RGBA(128, 128, 128, 0.5);
+  color: black;
+}
+.active {
+  background-color: blue;
+  color: white;
+}
+.finished {
+  background-color: green;
+  color: white;
+}
+.initial {
+  background-color: RGBA(128, 128, 128, 0.5);
+  color: black;
+}
